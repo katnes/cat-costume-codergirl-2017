@@ -2,6 +2,37 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-family: tahoma;
+}
+
+h2{
+  font-family: tahoma;
+  text-align: right;
+
+}
+
+h3{
+  text-align: center;
+}
+
+h4{
+  font-family: tahoma;
+  font-weight: lighter;
+  text-align: justify;
+  padding: 20px;
+
+}
+
+.floating-box {
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    border: 3px solid #EEEEEE;
+
+}
+
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
