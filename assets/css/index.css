@@ -25,6 +25,13 @@ h4{
 
 }
 
+h5{
+  font-family: tahoma;
+  font-weight: lighter;
+  text-align: justify;
+  padding: 0 20px 20px 20px;
+}
+
 .main{
   text-align: center;
   margin:auto;
@@ -41,14 +48,12 @@ h4{
     height: 300px;
     margin: 10px;
     border: 3px solid #EEEEEE;
-
-
 }
 
 .in-touch{
   display: inline-block;
   width: 250px;
-  height: 300px;
+  height: 200px;
   margin: 10px;
   border: 3px solid #EEEEEE;
 }
