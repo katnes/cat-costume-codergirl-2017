@@ -2,6 +2,21 @@ body {
   margin: 0;
 }
 
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.li1{
+  float: left;
+}
+
+.li2{
+  float: right;
+
+}
+
 h1 {
   font-family: tahoma;
 }
@@ -43,10 +58,9 @@ h5{
 
 .about{
     display: inline-block;
-    margin:auto;
+    text-align: center;
     width: 315px;
     height: 300px;
-    margin: 10px;
     border: 3px solid #EEEEEE;
 }
 
