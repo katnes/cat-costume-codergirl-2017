@@ -1,16 +1,12 @@
-body {
-  margin: 0;
-}
-
 h1{
-  font-family: PT Sans Narrow Bold;
+  font-family: 'PT Sans Narrow', Bold;
   font-size: 1.875em;
   color: #323232;
   text-align: center;
 }
 
 h2{
-  font-family: PT Sans Narrow Bold;
+  font-family: 'PT Sans Narrow', sans-serif;
   font-size: 1.5em;
   color: #00897f;
   font: Uppercase;
@@ -45,9 +41,7 @@ nav h1{
 }
 
 nav p{
-  font-family: PT Sans Regular
-  font-size: .9em;
-  color: #323232;
+
 }
 
 footer h1{
