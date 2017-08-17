@@ -2,6 +2,22 @@ body {
   margin: 0;
 }
 
+h1{
+  font-family: PT Sans Narrow Bold;
+  font-size: 1.875em;
+  color: #323232;
+  text-align: center;
+}
+
+h2{
+  font-family: PT Sans Narrow Bold;
+  font-size: 1.5em;
+  color: #00897f;
+  font: Uppercase;
+  text-align: center;
+}
+
+
 ul{
   list-style-type: none;
   margin: 0;
@@ -17,19 +33,16 @@ ul{
 
 }
 
-h1 {
-  font-family: tahoma;
+box{
+
 }
+
+
 
 h2{
   font-family: tahoma;
   text-align: right;
 
-}
-
-h3{
-  text-align: center;
-  font-family: tahoma;
 }
 
 h4{
