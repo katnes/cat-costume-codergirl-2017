@@ -17,6 +17,45 @@ h2{
   text-align: center;
 }
 
+h3{
+  font-family: PT Serif Regular;
+  font-size: 1em;
+  line-height: 2em;
+  color: #323232;
+}
+
+
+p{
+  font-family: PT Serif Regular;
+  font-size: .875em;
+  line-height: 1.75em
+  color: #323232;
+}
+
+a{
+  font-family: PT Serif Bold;
+  font-size: 1em;
+  line-height: #f26522;
+}
+
+nav h1{
+  font-family: PT Sans Narrow Bold;
+  font-size: 1em;
+  color: #323232;
+}
+
+nav p{
+  font-family: PT Sans Regular
+  font-size: .9em;
+  color: #323232;
+}
+
+footer h1{
+  font-family: PT Sans Narrow Bold;
+  font-size: 1.25em;
+  color: #323232;
+}
+
 ul{
   list-style-type: none;
   margin: 0;
@@ -29,29 +68,8 @@ ul{
 
 .li2{
   float: right;
-
 }
 
-h2{
-  font-family: tahoma;
-  text-align: right;
-
-}
-
-h4{
-  font-family: tahoma;
-  font-weight: lighter;
-  text-align: justify;
-  padding: 20px;
-
-}
-
-h5{
-  font-family: tahoma;
-  font-weight: lighter;
-  text-align: justify;
-  padding: 0 20px 20px 20px;
-}
 
 .main{
   text-align: center;
@@ -61,6 +79,13 @@ h5{
   height: 400px;
   margin: 100;
 }
+
+.floating-box {
+display: inline-block;
+float: left;
+border: 3px solid #73AD21;
+}
+
 
 .about{
     display: inline-block;
