@@ -2,7 +2,6 @@ h1{
   font-family: 'PT Sans Narrow', Bold;
   font-size: 1.875em;
   color: #323232;
-  margin: 80px;
   text-align: center;
 }
 
@@ -26,7 +25,7 @@ h3{
   margin: auto;
 }
 
-.image img{
+.round {
 border-radius: 50%;
 }
 
@@ -75,7 +74,6 @@ ul{
   margin: 0;
   padding: 0;
 }
-
 
 
 
