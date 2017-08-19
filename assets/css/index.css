@@ -3,6 +3,7 @@ h1{
   font-size: 1.875em;
   color: #323232;
   text-align: center;
+  margin: 80px;
 }
 
 h2{
@@ -64,15 +65,11 @@ ul{
   padding: 0;
 }
 
-.section{
-  width: 75%;
-  margin: 0 auto;
 
-}
 
 .image {
-display: block;
-width: 40%;
+width: 60%;
+margin: left;
  }
 
 .li1{
@@ -93,15 +90,15 @@ width: 40%;
   margin: 100;
 }
 
-.floating-box {
-display: inline-block;
-float: left;
-border: 3px solid #73AD21;
-}
 
 .section{
-display: flex;
+  display: flex;
 }
+
+.bottom-section{
+  display: flex;
+  margin: auto;
+  }
 
 .about{
     text-align: center;
@@ -112,12 +109,14 @@ display: flex;
 }
 
 .in-touch{
-  display: inline-block;
+  text-align: center;
   width: 250px;
   height: 200px;
-  margin: 10px;
   border: 3px solid #EEEEEE;
+  margin: 10px;
 }
+
+
 
 
 /* On devices wider than 660px */
