@@ -2,6 +2,7 @@ h1{
   font-family: 'PT Sans Narrow', Bold;
   font-size: 1.875em;
   color: #323232;
+  margin: 80px;
   text-align: center;
 }
 
@@ -25,7 +26,7 @@ h3{
   margin: auto;
 }
 
-.round {
+.round img {
 border-radius: 50%;
 }
 
@@ -69,14 +70,15 @@ footer h1{
   color: #323232;
 }
 
+.align{
+  s=display: flex;
+}
+
 ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
-
-
 
 .li1{
   float: left;
