@@ -14,38 +14,46 @@ h2{
 }
 
 h3{
-  font-family: PT Serif Regular;
+  font-family: 'PT Serif', Regular;
   font-size: 1em;
   line-height: 2em;
   color: #323232;
+  text-align: center;
+  display: block;
+  width: 400px;
+  height: 400px;
+  margin: auto;
 }
 
 
 p{
-  font-family: PT Serif Regular;
+  font-family: 'PT Serif', Regular;
   font-size: .875em;
   line-height: 1.75em
   color: #323232;
+  margin
 }
 
 a{
-  font-family: PT Serif Bold;
+  font-family: 'PT Serif', Bold;
   font-size: 1em;
   line-height: #f26522;
 }
 
 nav h1{
-  font-family: PT Sans Narrow Bold;
+  font-family: 'PT Sans Narrow', Bold;
   font-size: 1em;
   color: #323232;
 }
 
 nav p{
-
+font-family: 'PT Sans Regular';
+font-size: .9em;
+color: #323232;
 }
 
 footer h1{
-  font-family: PT Sans Narrow Bold;
+  font-family: 'PT Sans Narrow', Bold;
   font-size: 1.25em;
   color: #323232;
 }
@@ -55,6 +63,17 @@ ul{
   margin: 0;
   padding: 0;
 }
+
+.section{
+  width: 75%;
+  margin: 0 auto;
+
+}
+
+.image {
+display: block;
+width: 40%;
+ }
 
 .li1{
   float: left;
@@ -80,13 +99,16 @@ float: left;
 border: 3px solid #73AD21;
 }
 
+.section{
+display: flex;
+}
 
 .about{
-    display: inline-block;
     text-align: center;
     width: 315px;
     height: 300px;
     border: 3px solid #EEEEEE;
+    margin: 60px;
 }
 
 .in-touch{
