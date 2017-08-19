@@ -2,8 +2,8 @@ h1{
   font-family: 'PT Sans Narrow', Bold;
   font-size: 1.875em;
   color: #323232;
-  text-align: center;
   margin: 80px;
+  text-align: center;
 }
 
 h2{
@@ -26,13 +26,8 @@ h3{
   margin: auto;
 }
 
-
-p{
-  font-family: 'PT Serif', Regular;
-  font-size: .875em;
-  line-height: 1.75em
-  color: #323232;
-  margin
+.image img{
+border-radius: 50%;
 }
 
 a{
@@ -41,16 +36,32 @@ a{
   line-height: #f26522;
 }
 
-nav h1{
+nav{
   font-family: 'PT Sans Narrow', Bold;
   font-size: 1em;
+  color: #323232;
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+}
+
+nav h1{
+  font-family: 'PT Sans Narrow', Bold;
+  font-size: 1.5em;
   color: #323232;
 }
 
 nav p{
 font-family: 'PT Sans Regular';
-font-size: .9em;
-color: #323232;
+text-align: right;
+}
+
+p{
+  font-family: 'PT Serif', Regular;
+  font-size: .875em;
+  line-height: 1.75em
+  color: #323232;
 }
 
 footer h1{
@@ -67,10 +78,7 @@ ul{
 
 
 
-.image {
-width: 60%;
-margin: left;
- }
+
 
 .li1{
   float: left;
