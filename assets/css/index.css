@@ -1,12 +1,11 @@
-h1{
+h1 {
   font-family: 'PT Sans Narrow', Bold;
   font-size: 1.875em;
   color: #323232;
-  margin: 80px;
   text-align: center;
 }
 
-h2{
+h2 {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 1.5em;
   color: #00897f;
@@ -14,82 +13,95 @@ h2{
   text-align: center;
 }
 
-h3{
+h3 {
   font-family: 'PT Serif', Regular;
   font-size: 1em;
   line-height: 2em;
   color: #323232;
-  text-align: center;
-  display: block;
   width: 400px;
-  height: 400px;
+  height: 200px;
   margin: auto;
 }
 
 .round img {
-border-radius: 50%;
+  border-radius: 50%;
+  justify-content: space-between;
+
 }
 
-a{
+.circles{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
   font-family: 'PT Serif', Bold;
   font-size: 1em;
   line-height: #f26522;
 }
 
-nav{
+nav {
   font-family: 'PT Sans Narrow', Bold;
   font-size: 1em;
   color: #323232;
   display: flex;
-  display: flex;
   justify-content: space-between;
-    align-items: center;
+  align-items: center;
 }
 
-nav h1{
+nav h1 {
   font-family: 'PT Sans Narrow', Bold;
   font-size: 1.5em;
   color: #323232;
 }
 
-nav p{
-font-family: 'PT Sans Regular';
-text-align: right;
+nav p {
+  font-family: 'PT Sans Regular';
+  text-align: right;
 }
 
-p{
+p {
   font-family: 'PT Serif', Regular;
   font-size: .875em;
   line-height: 1.75em
   color: #323232;
 }
 
-footer h1{
-  font-family: 'PT Sans Narrow', Bold;
-  font-size: 1.25em;
-  color: #323232;
+.align {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: 10px;
 }
 
-.align{
-  s=display: flex;
+.about {
+  text-align: center;
+  width: 315px;
+  height: 300px;
+  margin: 40px;
+  content: 1px;
+  background-color: #EEEDEE
+
 }
 
-ul{
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.li1{
+.li1 {
   float: left;
 }
 
-.li2{
+.li2 {
   float: right;
 }
 
-
-.main{
+.main {
   text-align: center;
   margin:auto;
   display: block;
@@ -98,38 +110,47 @@ ul{
   margin: 100;
 }
 
+.touch{
+  background: #EEEDEE;
+  color: #ffffff;
+  padding: 8px;
+}
 
-.section{
+.section {
   display: flex;
 }
 
-.bottom-section{
+.bottom-section {
   display: flex;
-  margin: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
   }
 
-.about{
-    text-align: center;
-    width: 315px;
-    height: 300px;
-    border: 3px solid #EEEEEE;
-    margin: 60px;
+.in-touch {
+  width: 315px;
+  height: 300px;
+  margin: 40px;
+  background-color: white;
 }
 
-.in-touch{
-  text-align: center;
-  width: 250px;
-  height: 200px;
-  border: 3px solid #EEEEEE;
-  margin: 10px;
+.map{
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
 }
 
 
 
 
+.site-footer{
+  background: #00897f;
+  color: #ffffff;
+  padding: 100px;
+}
 /* On devices wider than 660px */
 @media(min-width: 660px) {
-}
 
 /* On devices wider than 940px */
 @media(min-width: 940px) {
