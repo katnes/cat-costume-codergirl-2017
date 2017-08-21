@@ -29,7 +29,7 @@ h3 {
 
 }
 
-.circles{
+.circles {
   text-align: center;
   display: flex;
   justify-content: center;
@@ -87,20 +87,6 @@ p {
 
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.li1 {
-  float: left;
-}
-
-.li2 {
-  float: right;
-}
-
 .main {
   text-align: center;
   margin:auto;
@@ -134,7 +120,7 @@ ul {
   background-color: white;
 }
 
-.map{
+.maphero{
   display: flex;
   justify-content: center;
   max-width: 100%;
@@ -142,12 +128,12 @@ ul {
 }
 
 
-
-
 .site-footer{
   background: #00897f;
   color: #ffffff;
   padding: 100px;
+  max-width: 100%;
+  height: auto;
 }
 /* On devices wider than 660px */
 @media(min-width: 660px) {
