@@ -1,24 +1,43 @@
+html{
+  font-family: 'PT Sans', 'arial', 'sans-serif';
+}
+
+
+
 h1 {
-  font-family: 'PT Sans Narrow', Bold;
+  font-family: 'PT Sans Narrow', 'arial';
   font-size: 1.875em;
   color: #323232;
   text-align: center;
+  margin-bottom: 45px;
 }
 
 h2 {
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'PT Sans Narrow', 'arial';
   font-size: 1.5em;
   color: #00897f;
-  font: Uppercase;
-  text-align: center;
+  text-transform: uppercase;
 }
 
 h3 {
-  font-family: 'PT Serif', Regular;
+  font-family: 'PT Serif Regular', 'arial';
   font-size: 1em;
   line-height: 2em;
   color: #323232;
-  margin: auto;
+}
+
+p {
+  font-family: 'PT Serif Bold', 'arial';
+  font-size: .875em;
+  line-height: 1.75em;
+  color: #323232;
+  padding: 10px;
+}
+
+a {
+  font-family: 'PT Serif Bold', 'arial';
+  font-size: 1em;
+  line-height: #f26522;
 }
 
 .round img {
@@ -32,16 +51,13 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 
-a {
-  font-family: 'PT Serif', Bold;
-  font-size: 1em;
-  line-height: #f26522;
-}
+
 
 nav {
-  font-family: 'PT Sans Narrow', Bold;
+  font-family: 'PT Sans Narrow', 'arial';
   font-size: 1em;
   color: #323232;
   display: flex;
@@ -50,20 +66,8 @@ nav {
 }
 
 nav h1 {
-  font-family: 'PT Sans Narrow', Bold;
+  font-family: 'PT Sans Narrow', 'arial';
   font-size: 1.5em;
-  color: #323232;
-}
-
-nav p {
-  font-family: 'PT Sans Regular';
-  text-align: right;
-}
-
-p {
-  font-family: 'PT Serif', Regular;
-  font-size: .875em;
-  line-height: 1.75em
   color: #323232;
 }
 
@@ -90,8 +94,7 @@ p {
   margin:auto;
   display: block;
   width: 400px;
-  height: 400px;
-  margin: 100;
+  height: 150px;
 }
 
 .touch{
@@ -107,7 +110,6 @@ p {
 .bottom-section {
   display: flex;
   justify-content: center;
-  align-items: center;
   }
 
 .in-touch {
