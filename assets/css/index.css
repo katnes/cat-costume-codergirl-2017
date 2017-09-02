@@ -59,7 +59,7 @@ a {
 nav {
   font-family: 'PT Sans Narrow', 'arial';
   font-size: 1em;
-  color: #323232;
+  color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -122,7 +122,7 @@ nav h1 {
 .maphero{
   display: flex;
   justify-content: center;
-  max-width: 100%;
+  max-width: auto;
   height: auto;
 }
 
@@ -130,7 +130,7 @@ nav h1 {
 .site-footer{
   background: #00897f;
   color: #ffffff;
-  padding: 100px;
+  padding: 25px;
   max-width: 100%;
   height: auto;
 }
