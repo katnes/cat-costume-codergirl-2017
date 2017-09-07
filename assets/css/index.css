@@ -7,7 +7,8 @@ html{
 }
 
 .batcat img{
-width: 100%;
+margin:auto;
+max-width: 100%;
 }
 
 h1 {
@@ -30,6 +31,7 @@ h3 {
   font-family: 'PT Serif Regular', 'arial';
   font-size: 1em;
   line-height: 2em;
+  text-align: center;
   color: #323232;
 }
 
@@ -76,8 +78,10 @@ nav h1 {
   color: #323232;
 }
 
+
+
 .align {
-  text-align: center;
+  text-align: left;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -92,7 +96,7 @@ nav h1 {
   margin: 40px;
   content: 1px;
   padding: 10px;
-  background-color: #EEEDEE
+  background-color: #EEEDEE;
 
 }
 
@@ -108,6 +112,11 @@ nav h1 {
   background: #EEEDEE;
   color: #ffffff;
   padding: 8px;
+}
+
+.bizdeets{
+text-align: left;
+padding-left: 40px;
 }
 
 .section {
@@ -141,6 +150,14 @@ nav h1 {
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
+
+.batcat img {
+  display: inline block;
+  min-width: 500px;
+}
+
+
+  }
 
 /* On devices wider than 940px */
 @media(min-width: 940px) {
